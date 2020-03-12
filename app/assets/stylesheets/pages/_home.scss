@@ -1,1 +1,50 @@
 // Specific CSS for your home-page
+
+// BODY
+
+.new {
+    text-align: left;
+}
+
+@media screen and (min-width: 1100px) {
+  body {
+    font-size: 125.0%;
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  body {
+    font-size: 118.8%;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  body {
+    font-size: 112.5%;
+    font-size: 21px;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  body {
+    font-size: 106.3%;
+    font-size: 18px;
+  }
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-align: center;
+    color: #444;
+    font: normal 100%/1.5 "Franklin ITC Light", sans-serif;
+    font-style: normal;
+}
+
+html, body {
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+}
