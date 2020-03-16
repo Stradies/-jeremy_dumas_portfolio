@@ -23,3 +23,9 @@ require("channels")
 // ----------------------------------------------------
 
 import "bootstrap";
+
+import { lazyLoad } from '../components/cards';
+document.addEventListener('turbolinks:load', () => {
+  // Call your JS functions here
+  lazyLoad();
+});
